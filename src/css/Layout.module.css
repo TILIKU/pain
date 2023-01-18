@@ -1,13 +1,13 @@
+
 .main {
   margin: 3rem auto;
   width: 90%;
-  height: 100%;
   max-width: 40rem;
-  background-color: red ;
+  min-height: 73.5vh;
 }
 .background{
   width: 100%;
-  height: 100%;
-  background-color: red;
+  height: 100vh;
+  background-color: #151719;
   color: 100%;
 }

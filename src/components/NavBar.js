@@ -11,14 +11,14 @@ function NavBar() {
       <nav>
         <ul>
           <li>
-            <Link to="/">All Meetups</Link>
+            <Link to="/">Main</Link>
           </li>
           <li>
-            <Link to="/new-meetup">new meetup</Link>
+            <Link to="/reasons">Reasons</Link>
           </li>
           <li>
-            <Link to="/favorites">
-              favorites
+            <Link to="/About_Us">
+              About Us
             </Link>
           </li>
         </ul>

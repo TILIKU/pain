@@ -14,10 +14,12 @@
     margin-right: 50px;
     color: white;
     font-weight: bold;
+    background-color: #000000;
   }
   
   .cyan {
-    color:#0ABAB5
+    color:#0ABAB5;
+    background-color: #000000;
   }
 
   .header ul {
@@ -36,6 +38,11 @@
     text-decoration: none;
     font-size: 1.5rem;
     color: white;
+    
+  }
+  .header a,
+  .header li{
+    background-color: #000000;
   }
   
   .header a:hover,
@@ -45,7 +52,7 @@
   }
   
   .badge {
-    background-color: #fc0061;
+    background-color: #000000;
     color: white;
     border-radius: 12px;
     padding: 0 1rem;
