@@ -17,7 +17,7 @@ function NavBar() {
             <Link to="/reasons">Reasons</Link>
           </li>
           <li>
-            <Link to="/About_Us">
+            <Link to="/aboutUs">
               About Us
             </Link>
           </li>
