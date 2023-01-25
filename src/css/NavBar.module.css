@@ -1,6 +1,6 @@
 .header {
     
-    height: 5rem;
+    height: 7rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,7 +9,7 @@
   }
   
   .logo {
-    font-size: 2rem;
+    font-size: 3rem;
     left:0;
     margin-right: 50px;
     color: white;
@@ -36,7 +36,9 @@
   
   .header a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-weight: bold;
+    /* font-family: typeface-roboto-condensed; */
+    font-size: 2rem;
     color: white;
     
   }

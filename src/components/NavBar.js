@@ -7,20 +7,19 @@ function NavBar() {
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo} >Eco<span className={classes.cyan}>Topia</span></div>
+      <Link to="/"><div className={classes.logo} >Eco<span className={classes.cyan}>Topia</span></div></Link>
       <nav>
         <ul>
-          <li>
-            <Link to="/">Main</Link>
-          </li>
           <li>
             <Link to="/reasons">Reasons</Link>
           </li>
           <li>
-            <Link to="/aboutUs">
-              About Us
-            </Link>
+            <Link to="/benefits">benefits</Link>
           </li>
+          <li>
+            <Link to="/aboutUs">About Us</Link>
+          </li>
+          
         </ul>
       </nav>
     </header>
