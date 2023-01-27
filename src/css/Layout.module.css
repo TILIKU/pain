@@ -3,15 +3,15 @@
   width: 100%;
   background-color: #151719;
   display:grid;
-  grid-template-areas:  "header header"
-                        "content content"
-                        "footer footer";
+  grid-template-areas:  "header"
+                        "content"
+                        "footer";
 }
 
 .main {
-  margin: 3rem 0;
-  width: 90%;
-  max-width: 40rem;
+  margin: 0 0;
+  width: 100%;
   min-height: 73.5vh;
   grid-area:content;
+  display:unset;
 }
