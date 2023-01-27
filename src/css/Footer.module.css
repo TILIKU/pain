@@ -5,7 +5,8 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: baseline;
-    margin-top:auto
+    margin-top:auto;
+    grid-area:footer;
 }
 .footer_text{
     text-transform: uppercase;

@@ -1,5 +1,5 @@
 .header {
-    
+    grid-area:header;
     height: 7rem;
     display: flex;
     align-items: center;
