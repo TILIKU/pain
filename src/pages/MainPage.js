@@ -1,11 +1,22 @@
 import classes from "./MainPage.module.css"
+import SectionLeft from "../components/SectionLeft"
+import SectionRight from "../components/SectionRight"
+
 
 function MainPage() {
     return (
-        <div>
-         <h1 className={classes.h1}>main page</h1>
-         <img alt="balls" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dpyramid&psig=AOvVaw0YV3uVgg6wClNBWoRgdvzO&ust=1674321436880000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiRx6LW1vwCFQAAAAAdAAAAABAI" />
-       </div>
+        <span>
+        <SectionLeft 
+            mainText="satauri ab anything / MAIN" 
+            subText="patara texti am ragacis shesaxeb mhm yup,fortnie battle pass i just shit out my a$$ bootin up pc, oh i dont know the rest. big time" 
+            img="images/getoutofmyhead.jpg" 
+        />
+        <SectionRight  
+            mainText="satauri ab anything right"
+            subText="patara texti am ragacis shesaxeb mhm yup,fortnie battle pass i just shit out my a$$ bootin up pc, oh i dont know the rest. big time / right" 
+            img="images/getoutofmyhead.jpg" 
+        />
+        </span>
     )
 }
 

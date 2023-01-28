@@ -24,12 +24,14 @@
 }
 
 .mainText{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     text-transform:uppercase;
+    text-overflow: clip;
 }
 .subText{
-    font-size: 30px;
+    font-size: 25px;
+    text-overflow: clip;
 }
 .btn{
     color: #7CAFC4;
@@ -38,9 +40,9 @@
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
-    height: 55px;
+    height: 70px;
     min-width: 90px;
-    max-width: 150px;
+    max-width: 200px;
     border-radius: 50px;
     transition: all 0.3s ease;
 }
