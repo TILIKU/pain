@@ -9,7 +9,7 @@ function SectionLeft(props){
                 <p className={classes.subText}>{props.subText}</p>
                 <button className={classes.btn}>Learn More</button>
                 </div>
-            <div className={classes.sectionImg}><img className={classes.img} src={require("../images/getoutofmyhead.jpg")}></img></div> 
+            <div className={classes.sectionImg}><img className={classes.img} src={props.img}></img></div> 
     </div>
     )
 }
