@@ -1,11 +1,13 @@
 import classes from "../css/SectionRight.module.css"
 
 
-function SectionRight(props){
+function SectionRightBrown(props){
     return(
     <div className={classes.mainDiv}>
-        <div className={classes.sectionImg}><img className={classes.img} src={props.img}></img></div> 
-        <div className={classes.sectionText}>
+        <div className={classes.sectionImg}>
+            <img className={classes.img} src={props.img} alt="pain"></img>
+        </div> 
+        <div className={classes.sectionTextGreen}>
             <h1 className={classes.mainText}>{props.mainText}</h1>
             <p className={classes.subText}>{props.subText}</p>
             <button className={classes.btn}>Learn More</button>
@@ -15,4 +17,4 @@ function SectionRight(props){
     )
 }
 
-export default SectionRight
+export default SectionRightBrown
