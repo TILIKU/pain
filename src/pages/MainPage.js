@@ -13,20 +13,19 @@ function MainPage() {
     return (
         <span>
         <SectionLeftOrange 
-            mainText="satauri ab anything / MAIN" 
-            subText="patara texti am ragacis shesaxeb mhm yup,fortnie battle pass i just shit out my a$$ bootin up pc, oh i dont know the rest. big time" 
-            img={require(`../images/getoutofmyhead.jpg`)}
+            mainText="au texts namdvilad ver davwer" 
+            subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits" 
+            img={require(`../images/215165744_832189587424795_1664293472378575624_n.jpg`)}
             
         />
         <SectionRightBlue
             mainText="satauri ab anything right"
-            subText="patara texti am ragacis shesaxeb mhm yup,fortnie battle pass i just shit out my a$$ bootin up pc, oh i dont know the rest. big time / right" 
+            subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits"  
             img={require(`../images/getoutofmyhead.jpg`)}
-            css="sectionTextOrange"
         />
         <SectionLeftBrown
             mainText="satauri ab anything / MAIN" 
-            subText="patara texti am ragacis shesaxeb mhm yup,fortnie battle pass i just shit out my a$$ bootin up pc, oh i dont know the rest. big time" 
+            subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits" 
             img={require(`../images/getoutofmyhead.jpg`)}
         />
         </span>

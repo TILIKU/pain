@@ -13,12 +13,12 @@ function BenefitsPage() {
         <span>
         <SectionRightGreen 
             mainText="satauri ab anything right / BENEFITS/" 
-            subText="patara texti am ragacis shesaxeb mhm yup,fortnie battle pass i just shit out my a$$ bootin up pc, oh i dont know the rest. big time / right" 
+            subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits"  
             img={require(`../images/getoutofmyhead.jpg`)}
         />
         <SectionLeftBrown
-            mainText="satauri ab anything" 
-            subText="patara texti am ragacis shesaxeb mhm yup,fortnie battle pass i just shit out my a$$ bootin up pc, oh i dont know the rest. big time" 
+            mainText="satauri ab anything"
+            subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits" 
             img={require(`../images/getoutofmyhead.jpg`)}
         />
         </span>

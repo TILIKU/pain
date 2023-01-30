@@ -13,13 +13,13 @@ function AboutUsPage() {
         <span>
         <SectionLeftGreen
             mainText="satauri ab anything" 
-            subText="patara texti am ragacis shesaxeb mhm yup,fortnie battle pass i just shit out my a$$ bootin up pc, oh i dont know the rest. big time" 
+            subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits"  
             img={require(`../images/277113915_303173855225456_827140838838221178_n.jpg`)}
             />
         <SectionRightBlue
-            mainText="satauri ab anything right" 
-            subText="patara texti am ragacis shesaxeb mhm yup,fortnie battle pass i just shit out my a$$ bootin up pc, oh i dont know the rest. big time / right" 
-            img={require(`../images/getoutofmyhead.jpg`)}    
+            mainText="satauri ab anything right"
+            subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits" 
+            img={require(`../images/277894599_357706432799389_6359956953198857223_n.jpg`)}    
         />
         </span>
     )
