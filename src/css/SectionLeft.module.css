@@ -53,10 +53,11 @@
     font-size: 25px;
     text-overflow: clip;
 }
+.btnOrange,
+.btnGreen,
+.btnBlue,
+.btnBrown,
 .btn{
-    color: #7CAFC4;
-    background-color: black;
-    border-color: #7CAFC4;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
@@ -65,11 +66,75 @@
     max-width: 200px;
     border-radius: 50px;
     transition: all 0.3s ease;
+    margin:15px 15%
 }
+.subTextGreen{
+    color: #cc8b65
+}
+.subTextBlue{
+    color: black
+}
+.subTextBrown{
+    color: #38210f
+}
+.subTextOrange{
+    color: #cdcbd6
+}
+.subTextOrange,
+.subTextGreen,
+.subTextBrown,
+.subTextBlue{
+    font-size: 25px;
+    text-overflow: clip;
+    margin:15px 15%
+}
+.btnOrange{
+    color: #cdcbd6;
+    background-color: transparent;
+    border-color: #cdcbd6;
+}
+.btnOrange:hover{
+    color:  #d96846;
+    background: black;
+    border-color: black;
+}
+.btnGreen{
+    color: #cc8b65;
+    background-color: transparent;
+    border-color: #cc8b65;
+}
+.btnGreen:hover{
+    color:  #cc8b65;
+    background: black;
+    border-color: black;
+}
+.btnBlue{
+    color: black;
+    background-color: transparent;
+    border-color: black;
+}
+.btnBlue:hover{
+    color:  #7CAFC4;
+    background: black;
+    border-color: black;
+}
+.btnBrown{
+    color: #38210f;
+    background-color: transparent;
+    border-color: #38210f;
+}
+.btnBrown:hover{
+    color:  #ece0d0;
+    background: #38210f;
+    border-color: #38210f;
+}
+
+
+.btnOrange:hover,
+.btnGreen:hover,
+.btnBlue:hover,
+.btnBrown:hover,
 .btn:hover{
-    color:  black;
-    background: #7CAFC4;
-    border-color: #7CAFC4;
     border: 3px black solid;
 }
 .sectionImg{
@@ -79,8 +144,10 @@
     grid-area:content;
     display:unest;
     width:50%;
+    max-height: 100vh;
 }
 .img{
     width:100%;
     height:100%;
+    object-fit: cover;
 }

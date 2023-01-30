@@ -14,7 +14,7 @@ function AboutUsPage() {
         <SectionLeftGreen
             mainText="satauri ab anything" 
             subText="patara texti am ragacis shesaxeb mhm yup,fortnie battle pass i just shit out my a$$ bootin up pc, oh i dont know the rest. big time" 
-            img={require(`../images/getoutofmyhead.jpg`)}
+            img={require(`../images/277113915_303173855225456_827140838838221178_n.jpg`)}
             />
         <SectionRightBlue
             mainText="satauri ab anything right" 

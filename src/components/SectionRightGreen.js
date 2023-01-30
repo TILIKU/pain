@@ -9,8 +9,8 @@ function SectionRightGreen(props){
         </div> 
         <div className={classes.sectionTextGreen}>
             <h1 className={classes.mainText}>{props.mainText}</h1>
-            <p className={classes.subText}>{props.subText}</p>
-            <button className={classes.btn}>Learn More</button>
+            <p className={classes.subTextGreen}>{props.subText}</p>
+            <button className={classes.btnGreen}>Learn More</button>
         </div>
             
     </div>

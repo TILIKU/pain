@@ -7,10 +7,10 @@ function SectionRightOrange(props){
         <div className={classes.sectionImg}>
             <img className={classes.img} src={props.img} alt="pain"></img>
         </div> 
-        <div className={classes.sectionTextGreen}>
+        <div className={classes.sectionTextOrange}>
             <h1 className={classes.mainText}>{props.mainText}</h1>
-            <p className={classes.subText}>{props.subText}</p>
-            <button className={classes.btn}>Learn More</button>
+            <p className={classes.subTextOrange}>{props.subText}</p>
+            <button className={classes.btnOrange}>Learn More</button>
         </div>
             
     </div>
