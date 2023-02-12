@@ -9,7 +9,6 @@
 .sectionTextOrange,
 .sectionTextGreen,
 .sectionTextBlue{
-    font-size:20px;
     grid-area:content;
     width:50%;
 
@@ -44,21 +43,18 @@
 }
 
 .mainText{
-    font-size: 70px;
+    font-size: 3rem;
     font-weight: bold;
     text-transform:uppercase;
     text-overflow: clip;
 }
-.subText{
-    font-size: 25px;
-    text-overflow: clip;
-}
+
 .btnOrange,
 .btnGreen,
 .btnBlue,
 .btnBrown,
 .btn{
-    font-size: 25px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
     height: 70px;
@@ -84,7 +80,7 @@
 .subTextGreen,
 .subTextBrown,
 .subTextBlue{
-    font-size: 25px;
+    font-size: 1rem;
     text-overflow: clip;
     margin:15px 15%
 }
@@ -139,8 +135,6 @@
 }
 .sectionImg{
     color: white;
-    font-size:50px;
-    background-color:green;
     grid-area:content;
     display:unest;
     width:50%;

@@ -25,11 +25,11 @@ function AboutUsPage() {
         />
         <SectionLeftBrown
             mainText="Our projects are aimed at:" 
-            subText1="improving local and national climate policy;" 
-            subText2="development of other public organizations and initiatives;" 
-            subText3="reducing human impact on the climate;" 
-            subText4="reducing the impact of industry on the environment and communities;" 
-            subText5="monitoring of the environmental impact assessment system in Georgia"  
+            subText1="• improving local and national climate policy;" 
+            subText2="• development of other public organizations and initiatives;" 
+            subText3="• reducing human impact on the climate;" 
+            subText4="• reducing the impact of industry on the environment and communities;" 
+            subText5="• monitoring of the environmental impact assessment system in Georgia"  
             img={require(`../images/sustainable-development-goals-logo-template-illustration-free-vector.jpg`)}
             />
         </span>
