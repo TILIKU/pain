@@ -12,7 +12,7 @@ function SectionRightBlue(props){
             <p className={classes.subTextBlue}>{props.subText1}</p>
             <p className={classes.subTextBlue}>{props.subText2}</p>
             <p className={classes.subTextBlue}>{props.subText3}</p>
-            <button className={classes.btnBlue}>Learn More</button>
+            <button className={classes.btnBlue} style={props.css}>Learn More</button>
         </div>
             
     </div>

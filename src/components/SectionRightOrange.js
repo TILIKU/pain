@@ -10,7 +10,7 @@ function SectionRightOrange(props){
         <div className={classes.sectionTextOrange}>
             <h1 className={classes.mainText}>{props.mainText}</h1>
             <p className={classes.subTextOrange}>{props.subText}</p>
-            <button className={classes.btnOrange}>Learn More</button>
+            <button className={classes.btnOrange} style={props.css}>Learn More</button>
         </div>
             
     </div>

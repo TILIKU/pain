@@ -21,12 +21,12 @@ function MainPage() {
         <SectionRightBlue
             mainText="satauri ab anything right"
             subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits"  
-            img={require(`../images/getoutofmyhead.jpg`)}
+            img={require(`../images/322817672_911224826920397_9125867555772920788_n.jpg`)}
         />
         <SectionLeftBrown
             mainText="satauri ab anything / MAIN" 
             subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits" 
-            img={require(`../images/getoutofmyhead.jpg`)}
+            img={require(`../images/213715471_2640339259605819_3808300477435587011_n.jpg`)}
         />
         </span>
     )

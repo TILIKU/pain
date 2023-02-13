@@ -14,12 +14,14 @@ function BenefitsPage() {
         <SectionRightGreen 
             mainText="satauri ab anything right / BENEFITS/" 
             subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits"  
-            img={require(`../images/getoutofmyhead.jpg`)}
+            img={require(`../images/315100265_659336462234874_2369968938159943861_n.jpg`)}
+            css={{display:"none"}}
         />
         <SectionLeftBrown
             mainText="satauri ab anything"
             subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits" 
-            img={require(`../images/getoutofmyhead.jpg`)}
+            img={require(`../images/315530866_1778371222520211_1589480493207462022_n.jpg`)}
+            css={{display:"none"}}
         />
         </span>
     )
