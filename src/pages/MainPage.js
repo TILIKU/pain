@@ -13,20 +13,22 @@ function MainPage() {
     return (
         <span>
         <SectionLeftOrange 
-            mainText="au texts namdvilad ver davwer" 
+            mainText="reasons" 
             subText="We believe that the unspoiled environment and wildlife are values in themselves. Sustainable development of society will ensure the harmonious development of mankind without harming nature." 
             img={require(`../images/215165744_832189587424795_1664293472378575624_n.jpg`)}
             
         />
         <SectionRightBlue
-            mainText="satauri ab anything right"
-            subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits"  
+            mainText="benefits"
+            subText1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."  
             img={require(`../images/322817672_911224826920397_9125867555772920788_n.jpg`)}
+            subtxtCss={{display:"none"}}
         />
         <SectionLeftBrown
-            mainText="satauri ab anything / MAIN" 
-            subText="gamis 12:15 saatia da dges sawmelic ar maq wesivrad nawami, es raari, axla cotas mivalageb amas da mere waval da rames shevwam da davidzineb ro xval cocxali viyo tore hell awaits" 
+            mainText="about us" 
+            subText1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
             img={require(`../images/213715471_2640339259605819_3808300477435587011_n.jpg`)}
+            subtxtCss={{display:"none"}}
         />
         </span>
     )
